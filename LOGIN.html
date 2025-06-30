@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATIONAL PARK</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.bundle.js"></script>
+    <script src="jquery-3.7.1.min - Copy.js"></script>
+    <link rel="stylesheet" href="CSS/login.css">
+    <link rel="icon" href="CSS/img-0.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&display=swap"
+        rel="stylesheet">
+    <style>
+        h1 {
+            font-family: "Bona Nova SC", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        h1 {
+            font-family: "Bona Nova SC", serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        h1 {
+            font-family: "Bona Nova SC", serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid ">
+            <img src="CSS/img-0.jpg" class=" img-fluid   " style="height: 50px; width: 70px;  " alt="">
+            <a class="navbar-brand ms-5 b-name text-light" href="#">National Park Karachi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active ms-5 ps-3  text-light " aria-current="page" href="HOME.HTML">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link  ms-5 ps-3 text-light" aria-current="page" href="About.html">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link  ms-5 ps-3 text-light" aria-current="page" href="SHOP.html">Shop</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link  ms-5 ps-3 text-light" aria-current="page" href="#"><u>Login</u></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link  ms-5 ps-3 text-light" aria-current="page" href="Feed.html">FeedBack</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link  ms-5 ps-3 text-light" aria-current="page" href="JOIN-OUR-TEAM.HTML">Join Our
+                            Team</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link  ms-5 ps-3 text-light" aria-current="page" href="CONATCT.HTML">Contact </a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link  ms-5 ps-3 text-light" aria-current="page" >  <span class="navbar-toggler-icon text-light fw-bold"></span> </a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container mt-3">
+        <h1 class=" d-flex justify-content-center bg-warning"> Visit Pic </h1>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <img src="CSS/img-24.jpg" class="img-fluid mt-3 " alt="">
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="CSS/img-27.jpg" class="img-fluid mt-3 " alt="">
+
+            </div>
+            <div class="col-12 col-md-12">
+                <img src="CSS/img-26.jpg" class="img-fluid mt-3 " alt="">
+
+            </div>
+        </div>
+    </div>
+    <!-- login form -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h1 class=" d-flex justify-content-center bg-warning">Login Form</h1>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="FiristName">
+                    <label for="floatingInput">FiristName</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="SecondName">
+                    <label for="floatingPassword">SecondName</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" placeholder="Enter Your Email" id="mai" onkeyup="mail()">
+                    <label for="floatingPassword">Email:</label>
+                </div>
+                <label for="mail" id="mail" class="float-end"></label>
+
+                <br>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" placeholder=".............." id="passwor"
+                        onkeyup="pas()">
+                    <label for="password">Password</label>
+                </div>
+                <label for="password" id="pad" class="float-end"></label>
+
+                <a href="#" class="mt-4  float-end btn btn-sm btn-outline-warning ">Logn In</a>
+
+            </div>
+            <div class="col-12 col-md-6 mt-3">
+                <img src="CSS/img-28.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- login from end -->
+    <!-- visit form -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12 col-md-6 mt-3">
+                <img src="CSS/img-33.jpg" class="img-fluid mt-5" alt="">
+            </div>
+            <div class="col-12 col-md-6 mt-3">
+                <H1 class="bg-warning d-flex justify-content-center">Visit In Forest Form</H1>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="FiristName">
+                            <label for="floatingInput">FiristName:</label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingPassword" placeholder="SecondName">
+                            <label for="floatingPassword">SecondName:</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-12 col-md-6">
+
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" placeholder="Enter Your Email" id="Mail"
+                                onkeyup="mailuuu()">
+                            <label for="floatingPassword">Email:</label>
+                        </div>
+                        <label id="mailr" class="float-end"></label>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" placeholder=".............." id="passw"
+                                onkeyup="pase()">
+                            <label for="password">Password</label>
+                        </div>
+                        <label for="password" id="passsw" class="float-end"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="form-floating mb-3 ">
+                            <input type="number" class="form-control" id="floatingPassword" placeholder="Contact">
+                            <label for="floatingPassword">Contact:</label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-floating mb-3 ">
+                            <input type="text" class="form-control" id="floatingPassword" placeholder="Contact">
+                            <label for="floatingPassword">Address:</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="form-float mb-3">
+                            <div class="form-floating">
+                                <select class="form-select " id="fort" class="fi" onchange="pro()">
+                                    <option selected>Select the Forest</option>
+                                    <option value="5000" id="for-pay">Littoral and Swamp Forests.</option>
+                                    <option value="6000" id="for-pay">Tropical Dry Deciduous Forests.</option>
+                                    <option value="9000" id="for-pay">Tropical Thorn Forests.</option>
+                                    <option value="12000" id="for-pay">Subtropical Forests.</option>
+                                    <option value="4000" id="for-pay">Subtropical Pine Forests.</option>
+                                    <option value="3000" id="for-pay">Himalayan Moist Temperate Forest.</option>
+                                    <option value="20000" id="for-pay">Himalayan Dry Temperate Forest.</option>
+                                    <option value="23000" id="for-pay">Alpine Forests.</option>
+                                </select>
+                                <label>Visit Forest </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="form-float mb-3">
+                            <div class="form-floating">
+                                <select class="form-select" id="city" onblur="q()">
+                                    <option selected>Select City</option>
+                                    <option value="5000" id="city-pay">Sindh</option>
+                                    <option value="3000" id="city-pay">Panjab</option>
+                                    <option value="2000" id="city-pay">KPK</option>
+                                    <option value="4000" id="city-pay">Blochistan</option>
+                                </select>
+                                <label>Your City </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <!-- <div class="col-12 col-md-6">
+                        <input type="text" id="f-p" class="form-control disabled ">
+
+                    </div> -->
+                    <!-- <div class="col-12 col-md-6">
+                        <input type="text" id="c-p" class="form-control ">
+
+                    </div> -->
+                </div>
+                <!-- <input type="text" id="total" class="form-control mt-3  "> -->
+                <button class="btn btn-sm btn-outline-warning float-end mt-3B fw-bold    accordion" type="submit"
+                    onclick="pro()">submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- visit form end -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col12 col-md-6">
+                <img src="CSS/img-40.jpg" class="img-fluid mt-3" alt="">
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="CSS/img-41.jpg" class="img-fluid mt-3" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- footer-strt -->
+    <div class="container bg-black text-light mt-3">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <h1>National Park Karachi</h1>
+                <p> In English
+                    The Kirthar National Park is situated in the Kirthar Mountains in Karachi and Jamshoro District in
+                    Sindh, Pakistan. It was founded in 1974 and stretches over 3,087 square kilometres (1,192 sq mi),
+                    making it the second largest national park in Pakistan after Hingol National Park.</p>
+
+                <li>
+                    <a href="#">Natue</a>
+                </li>
+                <li>
+                    <a href="#">More World life</a>
+                </li>
+                <li>
+                    <a href="#">Ocean</a>
+                </li>
+
+
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="CSS/img-0.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-12 col-md-4">
+                <h2 class="d-flex justify-content-center fw-bold">Scoial Link</h2>
+                <div class="d-flex justify-content-center fs-1">
+                    <a href="https://www.facebook.com/" class="text-decoration-none fs-3 ms-2 text-ablink"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/en/" class="text-decoration-none fs-3 ms-2 text-ablink"><i
+                            class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/" class="text-decoration-none fs-3 ms-2 text-ablink"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCQivTnernd6JYzqop7Taeeg"
+                        class="text-decoration-none fs-3 ms-2 text-ablink"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <p class="mt-3"><b>Owner Of WebSite:</b> <u class="ms-3">Babar Ashrafi</u></p>
+                <p class="mt-3"><b>Design Of WebSite:</b> <u class="ms-3">Danish Ahmed</u></p>
+                <p class="mt-3"><b>Director Of WebSite:</b> <u class="ms-3">Humza Mumtaz</u></p>
+                <p class="mt-3"><b>Produce Of WebSite:</b> <u class="ms-3">Muhammad Khizer</u></p>
+                <p class="mt-3"><b>Oprater Of WebSite:</b> <u class="ms-3">Hassan Zafar </u></p>
+            </div>
+
+        </div>
+    </div>
+    <!-- footer-end -->
+
+
+
+
+
+
+    <script>
+
+
+
+
+
+
+
+
+        function pro() {
+            let a = document.getElementById("fort").value;
+            document.getElementById("f-p").value = a;
+            let b = document.getElementById("city").value;
+            document.getElementById("c-p").value = b;
+        }
+        function q() {
+            let c = document.getElementById("f-p").value;
+            let d = document.getElementById("c-p").value;
+            document.getElementById("total").value = c + d;
+        }
+
+
+
+
+        function mail() {
+            let mai = document.getElementById("mai").value;
+            let mailerro = document.getElementById("mail");
+            let reg = /^[a-z]+[0-9]*@{1}(gmail\.com)$/i;
+            if (reg.test(mai)) {
+                mailerro.innerHTML = "Valid";
+                mailerro.classList.add("g");
+                mailerro.classList.remove("r");
+            } else {
+                mailerro.innerHTML = "Invalid";
+                mailerro.classList.add("r");
+                mailerro.classList.remove("g");
+            }
+        }
+
+        function mailuuu() {
+            let mail = document.getElementById("Mail").value;
+            let mailerrr = document.getElementById("mailr");
+
+            let rege = /^[a-z]+[0-9]*@{1}(gmail\.com)$/i;
+
+            if (rege.test(mail)) {
+                mailerrr.innerHTML = "Valid";
+                mailerrr.classList.add("g");
+                mailerrr.classList.remove("r");
+            } else {
+                mailerrr.innerHTML = "Invalid";
+                mailerrr.classList.add("r");
+                mailerrr.classList.remove("g");
+            }
+        }
+
+
+
+        let pase = () => {
+            let passe = document.getElementById("passw").value;
+
+            let passer = document.getElementById("passsw");
+
+            let rege = /^[a-zA-Z0-9/\\\.@#$%^&*()]{8,12}$/i;
+
+
+            if (rege.test(passe)) {
+                passer.innerHTML = "Valid";
+
+                passer.classList.add("g");
+
+                passer.classList.remove("r");
+            }
+
+            else {
+                passer.innerHTML = "InValid";
+
+                passer.classList.add("r");
+
+                passer.classList.remove("g");
+            }
+        }
+
+        let pas = () => {
+            let passe = document.getElementById("passwor").value;
+
+            let passer = document.getElementById("pad");
+
+            let rege = /^[a-zA-Z0-9/\\\.@#$%^&*()]{8,12}$/i;
+
+
+            if (rege.test(passe)) {
+                passer.innerHTML = "Valid";
+
+                passer.classList.add("g");
+
+                passer.classList.remove("r");
+            }
+
+            else {
+                passer.innerHTML = "InValid";
+
+                passer.classList.add("r");
+
+                passer.classList.remove("g");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

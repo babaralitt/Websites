@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="bootstrap.bundle.js"></script>
+  <script src="jquery-3.7.1.min - Copy.js"></script>
+  <!-- <link rel="stylesheet" href="CSS/HOME.CSS"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    a {
+      text-decoration: none;
+      /* color: white; */
+      background-color: white;
+      color: black;
+    }
+
+    .page-item {
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-12 col-md-7 border-end">
+        <img src="CSS/f-5.webp" class="img-fluid w-75 border-info-subtle" alt="">
+      </div>
+      <div class="col-12 col-md-5">
+
+
+
+        <p class="mt-5 ">Feed Of Birds</p>
+        <h2>Kaytee Exact Hand Feeding Formula</h2>
+        <p class="mt-3 ">From Rs.1,250.00 PKR</p>
+        <ul class="pagination pagination-lg mt-5 pag-1 text-black text-dark">
+          <li class="page-item disabled ">
+            <p class="page-link">-</p>
+          </li>
+          <li class="page-item ">
+            <p class="page-link">1</p>
+          </li>
+          <li class="page-item">
+            <p class="page-link pls-1">+</p>
+          </li>
+        </ul>
+        <ul class="pagination pagination-lg mt-5 pag-2">
+          <li class="page-item ">
+            <p class="page-link sub-2">-</p>
+          </li>
+          <li class="page-item ">
+            <p class="page-link">2</p>
+          </li>
+          <li class="page-item">
+            <p class="page-link pls-2">+</p>
+          </li>
+        </ul>
+        <ul class="pagination pagination-lg mt-5 pag-3">
+          <li class="page-item "> <a class="page-link sub-3">-</a></li>
+          <li class="page-item "> <a class="page-link">3</a></li>
+          <li class="page-item"> <a class="page-link pls-3">+</a></li>
+        </ul>
+        <ul class="pagination pagination-lg mt-5 pag-4">
+          <li class="page-item "> <a class="page-link sub-4">-</a></li>
+          <li class="page-item "> <a class="page-link">4</a></li>
+          <li class="page-item"> <a class="page-link pls-4">+</a></li>
+        </ul>
+        <ul class="pagination pagination-lg mt-5 pag-5">
+          <li class="page-item "> <a class="page-link sub-5">-</a></li>
+          <li class="page-item "> <a class="page-link">5</a></li>
+          <li class="page-item"> <a class="page-link pls-5">+</a></li>
+        </ul>
+        <ul class="pagination pagination-lg mt-5 pag-6">
+          <li class="page-item "> <a class="page-link sub-6">-</a></li>
+          <li class="page-item "> <a class="page-link">6</a></li>
+          <li class="page-item"> <a class="page-link pls-6">+</a></li>
+        </ul>
+        <ul class="pagination pagination-lg mt-5 pag-7">
+          <li class="page-item "> <a class="page-link sub-7">-</a></li>
+          <li class="page-item "> <a class="page-link">7</a></li>
+          <li class="page-item"> <a class="page-link pls-7">+</a></li>
+        </ul>
+        <ul class="pagination pagination-lg mt-5 pag-8">
+          <li class="page-item "> <a class="page-link sub-8">-</a></li>
+          <li class="page-item "> <a class="page-link">8</a></li>
+          <li class="page-item"> <a class="page-link pls-8">+</a></li>
+        </ul>
+        <ul class="pagination pagination-lg mt-5 pag-9">
+          <li class="page-item "> <a class="page-link sub-9">-</a></li>
+          <li class="page-item "> <a class="page-link">9</a></li>
+          <li class="page-item"> <a class="page-link pls-9">+</a></li>
+        </ul>
+        <ul class="pagination pagination-lg mt-5 pag-10">
+          <li class="page-item "> <a class="page-link sub-10">-</a></li>
+          <li class="page-item "> <a class="page-link">10</a></li>
+          <li class="page-item disabled"> <a class="page-link pls-10">+</a></li>
+        </ul>
+        <button class="btn btn-md btn-outline-primary">BUY NOW</button>
+        <button class="btn btn-md btn-outline-warning ps-3 ms-3">ORDER NOW</button>
+        <button class="btn btn-md btn-outline-danger ps-3 ms-3 disabled ">RETURN</button>
+
+
+        <hr>
+        <p class="fw-bold">Delivery Charge <span class="float-end">200 R.S</span></p>
+        <hr>
+        <p class="fw-bold">Delivery DAY <SPan class="float-end">MAXIMUM 5 DAYS</SPan></p>
+
+        <div id="liveAlertPlaceholder" class="mt-4"></div>
+        <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+
+        <div class="accordion mt-4" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+          <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <img src="..." class="rounded me-2" alt="...">
+              <strong class="me-auto">Bootstrap</strong>
+              <small>11 mins ago</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              Hello, world! This is a toast message.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script>
+    // $(".pag-1").hide()
+    $(".pag-2").hide()
+    $(".pag-3").hide()
+    $(".pag-4").hide()
+    $(".pag-5").hide()
+    $(".pag-6").hide()
+    $(".pag-7").hide()
+    $(".pag-8").hide()
+    $(".pag-9").hide()
+    $(".pag-10").hide()
+    // plus
+    $(".pls-1").click(function () {
+      $(".pag-2").show()
+      $(".pag-1").hide()
+    })
+    $(".pls-2").click(function () {
+      $(".pag-3").show()
+      $(".pag-2").hide()
+    })
+    $(".pls-3").click(function () {
+      $(".pag-4").show()
+      $(".pag-3").hide()
+    })
+    $(".pls-4").click(function () {
+      $(".pag-5").show()
+      $(".pag-4").hide()
+    })
+    $(".pls-5").click(function () {
+      $(".pag-6").show()
+      $(".pag-5").hide()
+    })
+    $(".pls-6").click(function () {
+      $(".pag-7").show()
+      $(".pag-6").hide()
+    })
+    $(".pls-7").click(function () {
+      $(".pag-8").show()
+      $(".pag-7").hide()
+    })
+    $(".pls-8").click(function () {
+      $(".pag-9").show()
+      $(".pag-8").hide()
+    })
+    $(".pls-9").click(function () {
+      $(".pag-10").show()
+      $(".pag-9").hide()
+    })
+
+    $(".sub-2").click(function () {
+      $(".pag-1").show()
+      $(".pag-2").hide()
+    })
+    $(".sub-3").click(function () {
+      $(".pag-2").show()
+      $(".pag-3").hide()
+    })
+    $(".sub-4").click(function () {
+      $(".pag-3").show()
+      $(".pag-4").hide()
+    })
+    $(".sub-5").click(function () {
+      $(".pag-4").show()
+      $(".pag-5").hide()
+    })
+    $(".sub-6").click(function () {
+      $(".pag-5").show()
+      $(".pag-6").hide()
+    })
+    $(".sub-7").click(function () {
+      $(".pag-6").show()
+      $(".pag-7").hide()
+    })
+    $(".sub-8").click(function () {
+      $(".pag-7").show()
+      $(".pag-8").hide()
+    })
+    $(".sub-9").click(function () {
+      $(".pag-8").show()
+      $(".pag-9").hide()
+    })
+    $(".sub-10").click(function () {
+      $(".pag-9").show()
+      $(".pag-10").hide()
+    })
+
+
+    // bothstrap code
+
+
+    const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+    const appendAlert = (message, type) => {
+      const wrapper = document.createElement('div')
+      wrapper.innerHTML = [
+        `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+        `   <div>${message}</div>`,
+        '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+        '</div>'
+      ].join('')
+
+      alertPlaceholder.append(wrapper)
+    }
+
+    const alertTrigger = document.getElementById('liveAlertBtn')
+    if (alertTrigger) {
+      alertTrigger.addEventListener('click', () => {
+        appendAlert('Nice, you triggered this alert message!', 'success')
+      })
+    }
+
+
+
+    const toastTrigger = document.getElementById('liveToastBtn')
+    const toastLiveExample = document.getElementById('liveToast')
+
+    if (toastTrigger) {
+      const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+      toastTrigger.addEventListener('click', () => {
+        toastBootstrap.show()
+      })
+    }
+
+
+    // bothstrap code
+
+  </script>
+</body>
+
+</html>
